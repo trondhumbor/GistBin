@@ -2,7 +2,6 @@
 A web service which securely saves codesnippets.
 
 The snippets are encrypted and decrypted in your browser using AES CCM.
-
 Only the ciphertext, IV and salt are sent to the server, and the encryption key
 is stored in your URL hash. If the paste was successfully stored on the
 server, you will be redirected to a page where you can view your paste.
