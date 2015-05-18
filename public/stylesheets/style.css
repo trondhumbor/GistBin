@@ -1,0 +1,14 @@
+html {
+    margin: 0 auto 0 auto;
+    width: 75%;/*480px*/
+    min-width: 62.5em;
+    float:none;
+    clear:both;
+    padding:1.5em;
+    overflow-y: scroll; /*Removes the jump when the slidebar appeares*/
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}

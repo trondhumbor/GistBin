@@ -1,0 +1,20 @@
+extends layout
+
+block header
+    script(type="application/javascript", src="/javascripts/index.js")
+
+block content
+    h1= title
+    p Welcome to #{title}
+    br
+    form(id="gistForm" role="form")
+        div(class="form-group")
+            label(for="title") Gist Title
+            input(id="gist_title" class="form-control" type="text" name="gist_title" placeholder="Enter gist title")
+        div(class="form-group")
+            label(for="description") Gist description
+            input(id="gist_description" class="form-control" type="text" name="gist_description" placeholder="Enter gist description")
+        div(class="form-group")
+            label(for="data") Gist data
+            textarea(id="gist_data" class="form-control" type="text" name="gist_data" placeholder="Enter gist data")
+        button(class="btn btn-default" type="submit" value="Submit") Submit

@@ -1,0 +1,12 @@
+extends layout
+
+block header
+    script(type="application/javascript", src="/javascripts/gists.js")
+
+block content
+    h3(id="gist_title")
+    label Description
+    div(id="gist_description")
+    label Content
+    pre
+        code(id="gist_data")
